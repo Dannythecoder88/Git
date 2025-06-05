@@ -19,7 +19,7 @@ def start_game():
 
 def get_guess(try_number):
     while True:
-        guess = input(f"Try {try_number}: Enter a number: ")
+        guess = input("Enter a number: ")
         if guess.isdigit():
             guess = int(guess)
             if 1 <= guess <= 100:
